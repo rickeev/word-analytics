@@ -1,9 +1,9 @@
 import Stats from "./Stats";
-import Textarea from "./Textarea";
+import Textarea from "./TextArea";
 
 export default function Container() {
   return (
-    <main>
+    <main className="container">
       <Textarea />
       <Stats />
     </main>

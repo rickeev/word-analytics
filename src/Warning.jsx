@@ -1,5 +1,5 @@
-export default function Warning() {
+export default function Warning({warningText}) {
   return (
-    <div>Warning</div>
+    <p className="warning">{warningText}</p>
   )
 }
